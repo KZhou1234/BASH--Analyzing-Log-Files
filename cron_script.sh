@@ -7,7 +7,7 @@ crontab -l > CRONTAB_NEW
 
 #create a cronjob if cronjob does not exist
 #run daily. everyday at 00:00
-CRON_JOB="0 0 * * * $SCRIPT_PATH"
+CRON_JOB="* * * * * $SCRIPT_PATH"
 
 #check the temp file for cron jobs
 grep -F "$CRON_JOB" ./CRONTAB_NEW > /dev/null
