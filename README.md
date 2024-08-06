@@ -1,4 +1,10 @@
 # Log Analyze
+## Run Script
+   ```
+   cd ~/bash_analyzing
+   chmod -x cron_script.sh
+   ./cron_script.sh
+   ```
 ## Overview
 Aiming to identify, search, and output suspicious activities in the log file using scripts, and automatically run these scripts daily, I have created a script to filter out and record suspicious activities, as well as to create a cron job for it.
 ## Steps
@@ -38,6 +44,9 @@ Aiming to identify, search, and output suspicious activities in the log file usi
 ## Results
 > **Note**  
 >The outputs below are for the scripts running per minute. The final scripts run in daily.
+* Daily Cron Job Created by Running the Script
+  <img width="769" alt="image" src="https://github.com/user-attachments/assets/c1c4b7b1-bea7-450d-bb6f-b77b1db4705b">
+
 * Daily Suspicious Activities  
   <img width="1032" alt="image" src="https://github.com/user-attachments/assets/1575b53a-4734-4dc0-b79f-6d325079ce56">  
 * Total Suspicious Activities  
